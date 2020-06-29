@@ -1,0 +1,37 @@
+.midtopimg{
+  margin: auto;
+  width: 60%;
+  height: 300px;
+}
+
+.midelement{
+  width: 60%;
+  margin:auto;
+}
+
+.middlep{
+  float: left;
+  width: 50%;
+  text-align: center;
+  background-color: silver;
+  height: 250px;
+  padding-top: 25px;
+  font-size: 20px;
+}
+
+.sidebar {
+  height: 70%; /* Full-height: remove this if you want "auto" height */
+  width: 190px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: silver; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
